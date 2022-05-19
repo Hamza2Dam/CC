@@ -62,7 +62,7 @@ public class TimerScript : MonoBehaviour
             // La velocitat de cada objecte dependrá de la del mapa
             velocitatobjectes[x].GetComponent<ScrollCotxe>().speed = velocitatmapa.scrollspeed ;
            
-            Debug.Log("Velocitat mapa " + velocitatmapa.scrollspeed);
+            Debug.Log("Velocitat mapa " + velocitatmapa.scrollspeed);   
 
         }
 
